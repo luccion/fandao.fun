@@ -18,10 +18,6 @@ const DiscussionList: React.FC<DiscussionListProps> = ({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    fetchDiscussions();
-  }, [fetchDiscussions]);
-
   const fetchDiscussions = useCallback(async () => {
     try {
       setLoading(true);
@@ -37,6 +33,10 @@ const DiscussionList: React.FC<DiscussionListProps> = ({
       setLoading(false);
     }
   }, [categoryId, currentPage, pageSize]);
+
+  useEffect(() => {
+    fetchDiscussions();
+  }, [fetchDiscussions]);
 
   const formatDate = (timestamp: number) => {
     return new Date(timestamp * 1000).toLocaleString('zh-CN');
