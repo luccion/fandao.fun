@@ -1,0 +1,107 @@
+/* Custom styles to match existing fandao.fun design */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Discussion list styles */
+.discussion-list .discussion {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.discussion-list .discussion:hover {
+  background-color: #f8f9fa;
+}
+
+.color-background {
+  background-color: #ffffff;
+}
+
+.color-font-default {
+  color: #333333;
+}
+
+.color-font-secondary {
+  color: #666666;
+}
+
+.color-font-grey {
+  color: #888888;
+}
+
+.discussionHr {
+  border-color: #e9ecef;
+}
+
+.avatarSVG {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.text-nickname {
+  font-weight: 500;
+}
+
+.text-title {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.text-content {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.notice {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  border: 1px solid #e9ecef;
+}
+
+/* Category sidebar */
+.sticky-top {
+  top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .col-md-3 {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Loading spinner */
+.spinner-border {
+  color: #007bff;
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: #007bff;
+  border-color: #dee2e6;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #6c757d;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
