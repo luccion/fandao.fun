@@ -12,5 +12,9 @@
 /public/js/jquery*.js
 /public/js/jquery/
 
+# Frontend build artifacts
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
 
 /config.inc.php
