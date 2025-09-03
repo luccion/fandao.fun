@@ -22,6 +22,17 @@
     "autoload": {
         "psr-0": {
             "": "extend/"
-        }
+        },
+        "psr-4": {
+            "App\\Controllers\\": "backend/src/Controllers/",
+            "App\\Models\\": "backend/src/Models/",
+            "App\\Services\\": "backend/src/Services/",
+            "App\\Config\\": "backend/src/Config/",
+            "App\\Api\\": "backend/src/Api/"
+        },
+        "classmap": [
+            "include/lib/",
+            "include/model/"
+        ]
     }
 }

@@ -1,14 +1,22 @@
+# Legacy uploads and data
 /upload/
 /data/
+
+# Dependencies
 /node_modules/
 /dist/
 /build/
+
+# Environment files
 /.env
 /.DS_Store
 /.well-known/
 
+# PHP dependencies
 /vendor/
 /composer.lock
+
+# Legacy jQuery files
 /public/js/jquery*.js
 /public/js/jquery/
 
@@ -17,4 +25,15 @@
 /frontend/dist/
 /frontend/.env
 
+# Backend artifacts
+/backend/vendor/
+/backend/storage/logs/*
+!/backend/storage/logs/.gitkeep
+
+# Legacy config
 /config.inc.php
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
