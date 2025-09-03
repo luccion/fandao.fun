@@ -1,0 +1,158 @@
+.market-title {
+  z-index: 888;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0px;
+  padding: 5px, 5px, 0px, 5px;
+}
+
+.market-hr {
+  margin-top: 0rem;
+}
+
+.property-amount {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.property-amount-market {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 6rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.property-expire-time {
+  padding: 4px;
+  white-space: nowrap;
+}
+
+.property-current-price {
+  text-align: right;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+#property-buy-amount {
+  width: 5rem;
+}
+
+.property-article-container {
+  text-align: inherit;
+  clip-path: circle(30%);
+  background: antiquewhite;
+  font-size: 0.5rem;
+  transition: all 0.3s;
+}
+
+.property-article-container:hover {
+  clip-path: circle(40%);
+  transition: all 0.3s;
+}
+
+.property-avatarSVG-block {
+  clip-path: circle(40%);
+  width: 100%;
+  max-width: 10rem;
+  padding: 1rem;
+  transition: all 0.3s;
+}
+
+.property-avatarSVG-block:hover {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.property-item-container {
+  width: 100%;
+  max-width: 10rem;
+  padding: 1rem;
+  transition: all 0.3s;
+  filter: drop-shadow(0px 5px 5px #000);
+}
+
+.ribbon {
+  width: 106px;
+  height: 108px;
+  overflow: hidden;
+  position: absolute;
+  top: -7px;
+  left: -6px;
+}
+
+.ribbon1 {
+  line-height: 18px;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  padding: 8px 0;
+  left: -35px;
+  top: 24px;
+  width: 151px;
+  color: white;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  letter-spacing: 2px;
+}
+
+.ribbon1:before,
+.ribbon1:after {
+  content: '';
+  border-top: 4px solid #4e7c7d;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: absolute;
+  bottom: -4px;
+}
+
+.ribbon1:before {
+  left: 0;
+}
+
+.ribbon1:after {
+  right: 0;
+}
+
+#shoplogo {
+  font-size: 3rem;
+}
+
+#personluggage {
+  font-size: 2rem;
+}
+
+.modal-account {
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .modal-account {
+    margin: auto 0.5rem auto 0.5rem;
+    max-width: 576px;
+  }
+}
+
+#collapseOne > div > p {
+  padding: 0rem;
+  margin: 0.2rem;
+}
+
+#propertyDecompose {
+  position: absolute;
+  left: 1rem;
+}
+#propertyLink {
+  position: absolute;
+  right: 1rem;
+}

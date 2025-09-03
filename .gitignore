@@ -1,0 +1,16 @@
+/upload/
+/data/
+/node_modules/
+/dist/
+/build/
+/.env
+/.DS_Store
+/.well-known/
+
+/vendor/
+/composer.lock
+/public/js/jquery*.js
+/public/js/jquery/
+
+
+/config.inc.php

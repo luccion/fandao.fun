@@ -1,0 +1,254 @@
+body {
+    background: #b4d8ff !important;
+}
+
+#installContainer {
+    background: #2d7ed5;
+}
+
+.color-theme {
+    color: #007bff;
+    stroke: #007bff;
+}
+
+
+.color-theme:hover {
+    color: #409cff;
+    stroke: #409cff;
+}
+
+.color-background {
+    background: white;
+}
+
+.color-background-secondary {
+    background: white;
+    border: 1px solid #6a6a6a;
+}
+
+.color-background-secondary:focus {
+    background: white;
+    border: 1px solid #6a6a6a;
+}
+
+.color-background-grey {
+    background: #cfcfcf;
+}
+
+.color-background-grey:hover {
+    background: #ebebeb;
+}
+
+.color-badge-default {
+    background: #e3e3e3;
+    color: #333333;
+}
+
+.color-badge-default:hover {
+    background: #e7e7e7;
+    color: #606060;
+}
+
+.color-badge-default:active {
+    background: #999999;
+    color: #000000;
+}
+
+.color-badge-active {
+    background: #28a745;
+    color: white;
+}
+
+.color-badge-active:hover {
+    background: #2bc950;
+    color: white;
+}
+
+.color-badge-active:active {
+    background: #006217;
+    color: #d9d9d9;
+}
+
+.color-badge-danger {
+    background: #ac3939;
+    color: white;
+}
+
+.color-badge-danger:hover {
+    color: white;
+    background: #df5050;
+}
+
+.color-badge-danger:active {
+    color: white;
+    background: #792323;
+}
+
+
+.color-button-secondary {
+    background: #747474;
+    color: white;
+}
+
+.color-button-secondary:hover {
+    background: #9b9b9b;
+    color: white;
+}
+
+.color-button-secondary:active {
+    background: #474747;
+    color: white;
+}
+
+.color-button-primary {
+    background: #007bff;
+    color: white;
+}
+
+.color-button-primary:hover {
+    background: #3094ff;
+    color: white;
+}
+
+.color-button-primary:active {
+    background: #0059b8;
+    color: white;
+}
+
+.color-button-danger {
+    color: white;
+    background: #ac3939;
+}
+
+.color-button-danger:hover {
+    color: white;
+    background: #df5050;
+}
+
+.color-button-danger:active {
+    color: white;
+    background: #792323;
+}
+
+.color-font-default {
+    color: #000;
+    fill: #000;
+}
+
+.color-font-grey {
+    color: #333;
+}
+
+.color-font-secondary {
+    color: #555;
+}
+
+.color-font-danger {
+    color: #ac3939;
+}
+
+.color-font-important {
+    color: #28a745;
+}
+
+body {
+    background: #f6f6f6;
+}
+
+.color-button-primary-ticket {
+    color: white;
+    background: #007bff;
+}
+
+.color-button-primary-ticket:after {
+    border-right: 6px dotted #ffffff;
+}
+
+.alert-info {
+    color: #ffffff;
+    background-color: #3b6ce9;
+    background-color: #3b6ce9;
+}
+
+
+#ocean {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+#ocean .waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+
+}
+
+#wave1 {
+    fill: #a2cefd4f;
+}
+
+#wave2 {
+    fill: #80bdff80;
+}
+
+#wave3 {
+    fill: #409cff80;
+}
+
+#wave4 {
+    fill: #007bff5c;
+}
+
+#ocean .parallax>use {
+    animation: tide 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+@keyframes tide {
+    from {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+#ocean .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+#ocean .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+#ocean .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+#ocean .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+#fanfan {
+    color: #ffffff63;
+}
+
+#logchain {
+    fill: none;
+    stroke-width: 0.5px;
+    stroke: #000;
+}
+
+#logchain>.logchaintxt {
+    stroke: none;
+    fill: #000
+}

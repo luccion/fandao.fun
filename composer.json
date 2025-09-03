@@ -1,0 +1,27 @@
+{
+    "name": "fandao/fandao",
+    "description": "fandao.fun",
+    "type": "project",
+    "keywords": [
+        "fandao"
+    ],
+    "homepage": "https://fandao.fun/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lunch",
+            "email": "lunch@whiteverse.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.6",
+        "web3p/web3.php": "dev-master",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "extend/"
+        }
+    }
+}
